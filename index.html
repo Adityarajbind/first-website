@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mobile-nav">
+        <div class="mobile-nav-logo">
+            <img src="profile zoro.jpg" alt="Logo">
+            <button class="cross" onclick="toggleMenu(1)">
+            <img src="cross.svg" alt="cross" height="30" width="30">
+            </button>
+        </div>
+        
+        <nav class="mobile-nav-main-nav">
+            <ul>
+                <li><img src="home.svg" alt=""><a href="#home">Home</a></li>
+                
+    <div class="partition" style="background-color: #656565;"></div>
+                <li><img src="about.svg" alt=""><a href="#about">About</a></li>
+                
+    <div class="partition" style="background-color: #656565;"></div>
+                <li><img src="services.svg" alt=""><a href="#services">Services</a></li>
+                
+    <div class="partition" style="background-color: #656565;"></div>
+                <li><img src="phone.svg" alt=""><a href="#contact">Contact</a></li>
+                
+    <div class="partition" style="background-color: #656565;"></div>
+            </ul>
+        </nav>
+        <span class="logout">
+            <p>Log Out</p>
+            <img src="log out.svg" alt="logout" height="30" width="30">
+        </span>
+    </div>
+    <header class="site-header">
+        <button class="hamburger" onclick="toggleMenu(0)"><img src="hambureger.svg" alt="" height="30" width="30"></button>
+       
+        <div class="logo">
+            <img src="profile zoro.jpg" alt="Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+    
+    <!-- Main content of the website -->
+        <div class="slides" id="slides">
+            <div class="black-layer"></div>
+            <button class="icons left-icon" onclick="left()" ><img src="left.svg" alt="left"></button>
+            <button  class="icons right-icon" onclick="right()"><img src="right.svg" alt="right"></button>
+            
+            
+            <div class="dot-container">
+                <span class="dot dot1"></span>
+                <span class="dot dot2"></span>
+                <span class="dot dot3"></span>
+            </div>
+            <div class="text-container">
+                <h1 class="back-title">
+                    Demon Slayer Goated
+                </h1>
+                <p class="descirtion">"Your wounds will heal. If there's a breath in you, it's not over yet. There's nothing more resilient than a human life." 
+                    <p class="descirtion author">- Tanjiro Kamado</p>
+                </p>
+                
+
+            </div>
+
+        </div>
+        <div class="partition"></div>
+        <div class="section">
+            <img src="https://w0.peakpx.com/wallpaper/358/749/HD-wallpaper-demon-slayer-manga-anime-kny.jpg" alt="demon slayer" height="auto" width="25%">
+            <div class="txt-conatiner">
+                <h1 class="title">Why Watch Demon Slayer ?</h1>
+                <p class="about">it is worth watching Demon Slayer. It is a manga and anime masterpiece with all the elements you could want, including fabulous animation, likable and relatable characters, exciting and intense battles, and more.But The main thing you get is Animation , Demon Slayer is Known for its Animation , and trust me when i say the Animation is good , Beacause IT is ⚔️</p>
+                <a href="https://demonslayer-anime.com/" target=”_blank”>Learn More</a>
+            </div>
+        </div>
+        <div class="partition"></div>
+        <div class="section section2">
+            <div class="txt-conatiner">
+                <h1 class="title">Why Watch Naruto ?</h1>
+                <p class="about">Naruto's character development is a symbol of personal growth. He encaspulates the epitome of working hard and what it feels like to succeed in life and achieve your dreams. For young children, Naruto is often seen as a hero figure, that would help you push through any obstacles in life.it also potrayed  some important concept of life thoughout the series</p>
+                <a target=”_blank” href="https://naruto-official.com/en">Learn More</a>
+            </div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/738/62/544/naruto-chidori-naruto-naruto-uzumaki-rasengan-naruto-sasuke-uchiha-hd-wallpaper-preview.jpg" alt="demon slayer" height="auto" width="25%">
+        </div>
+        <div class="partition"></div>
+        <div class="section">
+            <img src="https://miro.medium.com/v2/resize:fit:786/format:webp/0*pw9xsKqnq2dkGT4P" alt="demon slayer" height="auto" width="25%">
+            <div class="txt-conatiner">
+            <h1 class="title">Why Watch One piece?</h1>
+            <p class="about">One Piece is a popular Japanese manga and anime series created by Eiichiro Oda. It is known for its compelling storytelling, diverse and well-developed characters, and its sense of adventure and exploration. The series follows the journey of Monkey D. Luffy and his pirate crew as they search for the ultimate treasure known as "One Piece" in a vast and mysterious world. Fans are drawn to its intricate world-building, emotional depth, and themes of friendship, determination, and freedom. The series has also been praised for its long-term storytelling and the way it weaves together various plotlines and character arcs.</p>
+            <a target=”_blank” href="https://one-piece.com/index.html">Learn More</a>
+            </div>
+        </div>
+        <div class="partition" style="background-color: #656565;"></div>
+
+
+
+       
+
+
+
+<!-- footer hai bhai -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>About Us</h2>
+                <p>We are a company dedicated to providing the best services in the industry. Our goal is to meet and exceed customer expectations.</p>
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="#"><img src="face.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="x.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="in.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="link.svg" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Dark Shadow. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- <img src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg" alt="Image 1">
+<img src="https://img.freepik.com/free-photo/fresh-autumn-leaves-reveal-vibrant-organic-pattern-generated-by-ai_188544-15037.jpg?size=626&ext=jpg" alt="Image 2">
+<img src="https://img.freepik.com/free-photo/beautiful-isolated-feather_23-2151436660.jpg?size=626&ext=jpg&ga=GA1.1.1170594514.1715864726&semt=ais_user" alt="Image 3"> -->
